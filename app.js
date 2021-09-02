@@ -12,12 +12,16 @@ const d =new Date(dob).getDay();
 const successAlert =document.querySelector("#success-alert");
 successAlert.classList.remove("d-none");
 successAlert.classList.add("d-block");
-if (gender == "female"){
-successAlert.innerHTML += "Your Akan name is" +fName[d]
-}
-else{
-    successAlert.innerHTML += "Your Akan name is" +mName[d]
-}
+if (dob){  
+    if (gender == "female"){ 
+        alert("Your Akan name is " +fName[d])
+    }else{
+    alert("Your Akan name is " +fName[d])
+    }
+ }else{ 
+     alert("please add your date of birth of birth ")
+ }
+
 }
 document.querySelector("#afrmaAkan").addEventListener('submit' , findAkan)
 
