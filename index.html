@@ -3,7 +3,7 @@
 <meta charset="utf-8">
 
 <link rel="stylesheet" type="text/css" href="style.css"/>
- 
+
 </head>
 <body>
     <div>
@@ -14,20 +14,12 @@
 
 <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
 
-<div class="contantair p-5">
-    <form id="frmAkans">
-        <div class="row mb-3">
-            <label for="inputPassword3" class="col-sm-2-form-label">DOB</label>
-            <div class="col-sm-10">
-                <input type ="date" name="dob" class="form-control" id="inputPassword3"></input>
-                </div>
-<fieldset class="row mb-3">
+<form id="afrmaAkan">
+    <input type="date" name="dob">
 
-<legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-<div class="col-sm-10">
+<br>
 <input class="form-check-input" type="radio" name ="gender" id="gridRadios1" value="Female">
-
-male
+Male
 
 <div class="form-check">
 <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="Male" checked>
@@ -35,58 +27,20 @@ male
 Female
 </lable>
 <br>
-<button type="submit" class="btn btn-primary">Submit</button>
-</div>
-    
-</body>
-</html>
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </fieldset>
 
+<div id="=success-alert" class="alert alert-success d-none" role="alert"></div>
+<div id="success-alert" class="alert alert-dismissible fade show" role="alert"></div>
 
 
 
 
 
-
-
-
-
+<button class="btn btn-primary" id="frmAkan">Submit</button>
 </form>
-
-
-    </div>
-
+</div>
+    <script src="app.js"></script>
 </body>
 </html>
+
+
