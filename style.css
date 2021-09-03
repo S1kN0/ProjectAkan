@@ -1,6 +1,29 @@
+@charset "uft-8";
+/*CSS Documents*/
+
+
+head{
+    background-color: rgb(233, 233, 213);
+    margin:1px;
+    padding:3px;
+}
+
+body {
+    background-color: white;
+    margin:1px;
+    padding:3px;
+}
 
 
 
+
+
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 head{
