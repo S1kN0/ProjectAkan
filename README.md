@@ -8,4 +8,4 @@ No bugs.
 HTML| JAVA SCRIPT| CSS.
 ## Support and contact details
 aisha.farah@student.moringaschool.com
-S
+
