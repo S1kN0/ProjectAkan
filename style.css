@@ -1,45 +1,9 @@
 @charset "uft-8";
 /*CSS Documents*/
 
-
-head{
-    background-color: rgb(233, 233, 213);
-    margin:1px;
-    padding:3px;
-}
-
 body {
-    background-color: white;
-    margin:1px;
-    padding:3px;
-}
-
-
-
-
-
-.body-container{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: left;
-    
-}
-
-
-ul {
-    list-style-type: style none;
-}
-
-a {
-    text-decoration: none;
-}
-
-section {
-    width: 100%;
-    padding-left: 1em;
-    padding-right: 1em;
-    background-color:white;
+    background-color: black;
+    color: white;
 }
 
 nav {
@@ -49,9 +13,15 @@ nav {
     height: 60px;
     background-color:#FFFFFF;
     box-shadow: 2px 2px 12px rgba( 0,0,0,0.2);
+    padding-left: 1rem;
+    border-radius: 8px;
+    width: 95%;
+    margin-bottom: 1rem;
 }
 
-
+h2 {
+    font-size: 1.5 rem;
+}
 
 nav ul {
     display:flex;
@@ -65,55 +35,104 @@ nav ul li a{
     font-weight: 700;
 }
 
-.active{
-    font-weight:calibri;
-    color: #2d2a2a;
-}
-
-
-
-
-
-body {
-    background-color: rgb(241, 237, 238);
-    margin:1px;
-    padding:3px;
-}
-
-span {
-    color: goldenrod;
-}
-
-.top{
-    box-shadow: 2px 2px 12px rgba( 0,0,0,0.2);
-    padding: 0.5em;
-    border-radius: 0.5em;
-    margin-bottom: 2em;
-    background-color: gold;
-
-}
-.footer-ish-text{
-    font-style: italic;
-    text-align:left;
-}
-
-
 button{
 
     padding-top: 1em;
     padding-bottom: 1em;
     padding-left: 1.5em;
     padding-right: 1.5em;
-    background-color: white;
+    background-color: transparent;
     border-radius: 8px;
     transition: all 0.5s ease;
     
-    }
+}
     
-    button:hover{
+button:hover{
+
+    background-color: rgba(255, 255, 255, 0.25);
+}
     
-        background-color: rgb(83, 15, 83);
-    }
-    
-    
-    
+.header {
+    height: 40rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-image {
+    position: absolute;
+    z-index: -10;
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 8px;
+}
+
+.header-content {
+    height: 80%;
+    width: 80%;
+    background-color: #000000DD;
+    border-radius: 8px;
+    display: flex;
+}
+
+.names {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#about {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#about > img {
+    margin-left: 5rem;
+}
+
+.input {
+    width: 3rem;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.pickers > div > p {
+    text-align: center;
+}
+
+.pickers {
+    display: flex;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff22;
+}
+
+ol {
+    text-align: left;
+}
+
+h1 {
+    color: #FCD20F;
+}
