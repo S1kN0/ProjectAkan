@@ -4,15 +4,13 @@
 <link rel="stylesheet" type="text/css" href="style.css"/>
 <link rel="" href="/" />
 
- 
-</head>
-
 <body class="body-container">
-    <section>
-    <!--navigation-->
+    <section class="header">
+        <img class="header-image" src="./images/header-image.jpg" alt="header-image">
+
         <nav>
             <!--logo-->
-            <h1 class="logo">AKAN NAME GENERATOR</h1>
+            <h1 class="logo" style="color: black">AKAN NAME GENERATOR</h1>
 
             <!--menu---->
             <ul> 
@@ -20,144 +18,112 @@
                 <li><a href="#projects">Projects.</a></li>     
             </ul>
         </nav>
-    </section>
 
+        <div class="header-content">
 
+            <div class="text-container">
+                
+                <div class="content-side">
+                    <section id="about">
+                        <div>
+                            <h1>Learn a thing or two about the Akan tribe</h1>
+                                    
+                            <p>The Akan people are a historically important ethnic group of West Africa. With over 20 million members the Akans are one of the biggest Ethnic groups in West Africa today.</p>
+                            <p> The Akan are the largest ethnic group in both Ghana and the Ivory Coast.</p>
+                            <p>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
+                        
+                        </div>
 
+                        <img src="./images/flagpng.png" alt="flag">
+                    </section>
 
-
-</nav>
-
-</head>
-<style>
-body{
-    background-color: white;
-    margin: 3px;
-    border-radius: 5px;
-    
-}
-
-.container{
-background-color: white;
-margin: 3px;
-border-radius: 5px;
-}
-
-</style>
-
-
-
-
-<body>
-  
-</section>
-
-<section class="reaf more=container">
-<div class="text-container">
-    
-    <br>
-
-<img src="images/R (1).jpg" width="1260px" height="800px">
-
-
-<h1>Learn a thing or two about the Akan tribe</h1>
-<section class="box-container" id="about"></section>
-        
-<div>The Akan people are a historically important ethnic group of West Africa. With over 20 million members the Akans are one of the biggest Ethnic groups in West Africa today.</div>
-<p> The Akan are the largest ethnic group in both Ghana and the Ivory Coast.</p>
-<div></div>
-<div>Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born. Here are Ghanian day names.</p>
-
-
-
-</div>
-
-<section class="" id="Akan">
-<h2>The Akan day names of the week;</h2>
-<h1>Male</h1>
-<ol>
-<li>Sunday: Kwasi</li>
-<li>Monday: Kwadwo</li>
-<li>Tuesday: Kwabena</li>
-<li>Wednesday: Kwaku</li>
-<li>Thursday:  Yaw</li>
-<li>Friday: Kofi</li>
-<li>Saturday: Kwame</li>
-</ol>
-<ol>
-
-<h1>Female</h1>
-<li>Sunday: Akosua</li>
-<li>Monday: Adwoa</li>
-<li>Tuesday: Abenaa</li>
-<li>Wednesday: Akua</li>
-<li>Thursday:  Yaa</li>
-<li>Friday: Afua</li>
-<li>Saturday: Ama</li>
-
-
-</ol>
-<p> Akan name generator takes your birthday and calculates the day you were born and then depending on your gender outputs your Akan Name.</div>
-<div>
-<br>
-<footer><b>Now get your Akan name below</b></footer>
-
-
-
-</div>
-
-
-
-
-</section>
-
-<form id="afrmaAkan">
-    <p>Date</p>
-    <input type="number" id="date"> 
-    <p>Month</p>
-    <input type="number" id="month">
-    <p>Year</p>
-    <input type="number" id="year">
-
-<br>
-<input class="form-check-input" type="radio" name ="gender" id="gridRadios1" value="male">
-Male
-
-<div class="form-check">
-<input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="female" checked>
-<labe class="form-check label" for="gridRadios2">
-Female
-</lable>
-<br>
-</fieldset>
-
-<div id="=success-alert" class="alert alert-success d-none" role="alert"></div>
-<div id="success-alert" class="alert alert-dismissible fade show" role="alert"></div>
-<p>CLICK CLICK!</p>
+                        
+                        <h3 style="text-align:center">The Akan day names of the week;</h3>
+                        <div class="names">
+                            
+                            <div class="gender">
+                                <h2 style="text-align:center">Male</h2>
+                                <ol>
+                                    <li>Sunday: Kwasi</li>
+                                    <li>Monday: Kwadwo</li>
+                                    <li>Tuesday: Kwabena</li>
+                                    <li>Wednesday: Kwaku</li>
+                                    <li>Thursday:  Yaw</li>
+                                    <li>Friday: Kofi</li>
+                                    <li>Saturday: Kwame</li>
+                                </ol>
+                            </div>
+                            
+                            <div style="text-align:center" class="gender">
+                                <h2>Female</h2>
+                                <ol>
+                                    <li>Sunday: Akosua</li>
+                                    <li>Monday: Adwoa</li>
+                                    <li>Tuesday: Abenaa</li>
+                                    <li>Wednesday: Akua</li>
+                                    <li>Thursday:  Yaa</li>
+                                    <li>Friday: Afua</li>
+                                    <li>Saturday: Ama</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>      
+                </div>
+            </div>
             
+        </section>
+        
+        <form id="afrmaAkan">
+            <p> Akan name generator takes your birthday and calculates the day you were born and then depending on your gender outputs your Akan Name.</p>
+            <p><b>Now get your Akan name below</b></p>
 
+            <div class="pickers">
+                <div>
+                    <p>Date</p>
+                    <input type="number" id="date" class="input">
+                </div> 
+            
+                <div>
+                    <p>Month</p>
+                    <input type="number" id="month" class="input">
+                </div>
+            
+                <div>
+                    <p>Year</p>
+                    <input type="number" id="year" class="input">
+                </div>
+            </div>
 
+            <br>
+            <div>
+                <input class="form-check-input" type="radio" name ="gender" id="gridRadios1" value="male">
+                <label>Male</label>
+            </div>
 
+            <br>
 
+            <div>
+                <input class="form-check-input" type="radio" name="gender" id="gridRadios1" value="female" checked>
+                <label for="">Female</label>
+            </div>
+            <br>
 
+            <p>CLICK CLICK!</p>
 
-<button class="btn btn-primary" id="frmAkan">Submit</button>
-</form>
-</div>
+            <div id="=success-alert" class="alert alert-success d-none" role="alert"></div>
+            <div id="success-alert" class="alert alert-dismissible fade show" role="alert"></div>
+
+            <button style="color: white;" class="btn btn-primary" id="frmAkan">Submit</button>
+        </form>
+
     <script src="app.js"></script>
 
-<section class="box-container" id="projects">
-    <h2>Projects</h2>
-    <p>I have been working on</p>
-    <ol>
-        <li>Creating a name generator. <a href="https://github.com/Aisha-Farah/Aisha-Farah.github.io/commits/main">Click Here</a> for the commits</li>
-        <li>Creating a <span>README.md</span></li>
-    </ol>
-    <div>Use the links below to access my Github.</div>
-    <a href="https://github.com/Aisha-Farah/ProjectAkan/commits/master"><button>Profile</button></a>
-    <a href="https://github.com/Aisha-Farah/ProjectAkan"><button>This Project</button></a>
-</section>
-</html>
-
+    <section class="footer" id="projects">
+        <p>You can find this project on Github. <a href="https://github.com/Aisha-Farah/ProjectAkan">Click Here</a></p> Click below for the commits.
+        <a href="https://github.com/Aisha-Farah/ProjectAkan/commits/master"><br><button style="color: white;">Commits</button></a>
+        <br>
+    </section>
 </body>
+
+</html>
 </html>
